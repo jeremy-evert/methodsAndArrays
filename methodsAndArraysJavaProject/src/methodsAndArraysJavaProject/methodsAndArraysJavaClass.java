@@ -24,6 +24,16 @@ public class methodsAndArraysJavaClass {
 
 	}
 
+	private static int cmSumArray(int[] arrayOfNumbers) {
+		int arraySum = 0;
+		for(int i = 0; i < arrayOfNumbers.length; i++)
+		{
+			arraySum = arraySum + arrayOfNumbers[i];
+		}
+		
+		return arraySum;
+	}
+
 	private static void cmFillArray(int[] arrayOfNumbers) {
 		for(int i = 0; i < arrayOfNumbers.length; i++)
 		{
