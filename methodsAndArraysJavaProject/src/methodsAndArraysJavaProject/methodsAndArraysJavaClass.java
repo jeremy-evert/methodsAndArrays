@@ -24,6 +24,11 @@ public class methodsAndArraysJavaClass {
 
 	}
 
+	private static void cmPrintSumOfArray(int sumOfArray) {
+		System.out.println("The sum of the array is: " + sumOfArray);
+		
+	}
+
 	private static int cmSumArray(int[] arrayOfNumbers) {
 		int arraySum = 0;
 		for(int i = 0; i < arrayOfNumbers.length; i++)
