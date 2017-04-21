@@ -24,4 +24,12 @@ public class methodsAndArraysJavaClass {
 
 	}
 
+	private static void cmFillArray(int[] arrayOfNumbers) {
+		for(int i = 0; i < arrayOfNumbers.length; i++)
+		{
+			arrayOfNumbers[i] = i;
+		}
+		
+	}
+
 }
