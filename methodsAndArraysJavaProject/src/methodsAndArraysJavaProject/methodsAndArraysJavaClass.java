@@ -6,7 +6,7 @@ public class methodsAndArraysJavaClass {
 		System.out.println("Hello Class.");
 		
 		// Enter number of numbers sum
-		int sumUpTo = 4;
+		int sumUpTo = 10;
 		int[] arrayOfNumbers = new int[(sumUpTo + 1)];
 		int sumOfArray = 0;
 		
