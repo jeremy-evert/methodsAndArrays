@@ -31,7 +31,7 @@ public class methodsAndArraysJavaClass {
 			arraySum = arraySum + arrayOfNumbers[i];
 		}
 		
-		return 0;
+		return arraySum;
 	}
 
 	private static void cmFillArray(int[] arrayOfNumbers) {
